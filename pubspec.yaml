@@ -1,0 +1,24 @@
+name: daymaster
+description: 记录过去，期待未来。日期记录与手机小组件。
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.13.0
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  file_picker: ^10.3.10
+  path_provider: ^2.1.5
+  web: ^1.1.1
+  cupertino_icons: 2.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - LICENSE
+    - NOTICE

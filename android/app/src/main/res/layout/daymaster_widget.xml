@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <ImageView android:id="@+id/widget_surface" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:src="@drawable/widget_blue" android:scaleType="fitXY" android:importantForAccessibility="no" />
+    <ImageView android:id="@+id/widget_art" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:scaleType="fitXY" android:visibility="gone" android:importantForAccessibility="no" />
+    <LinearLayout android:id="@+id/widget_content" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:padding="16dp">
+        <TextView android:id="@+id/widget_brand" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/widget_brand" android:textColor="#5F7088" android:textSize="11sp"
+            android:fontFamily="sans-serif-medium" android:includeFontPadding="false" android:layout_marginBottom="5dp" />
+        <TextView android:id="@+id/widget_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/widget_empty_title" android:textColor="#15233D" android:textSize="20sp"
+            android:fontFamily="sans-serif-medium" android:maxLines="1" android:ellipsize="end" android:includeFontPadding="false" />
+        <LinearLayout android:id="@+id/widget_counter" android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1" android:orientation="vertical" android:gravity="center_vertical">
+            <TextView android:id="@+id/widget_label" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/widget_empty_label" android:textSize="13sp" android:textColor="#5F7088"
+                android:includeFontPadding="false" android:layout_marginTop="3dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+                android:orientation="horizontal" android:gravity="center_vertical">
+                <TextView android:id="@+id/widget_number" android:layout_width="0dp" android:layout_weight="1" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="10sp" android:autoSizeMaxTextSize="64sp" android:autoSizeStepGranularity="1sp" android:layout_height="match_parent"
+                    android:text="—" android:textSize="64sp" android:textColor="#15233D"
+                    android:fontFamily="sans-serif-medium" android:fontFeatureSettings="tnum" android:includeFontPadding="false" android:gravity="center_vertical" />
+                <TextView android:id="@+id/widget_unit" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="13sp" android:textColor="#15233D" android:layout_marginStart="6dp"
+                    android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/widget_list" android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1" android:orientation="vertical" android:visibility="gone">
+            <LinearLayout android:id="@+id/widget_row_one" android:layout_width="match_parent" android:layout_height="0dp"
+                android:layout_weight="1" android:orientation="horizontal" android:gravity="center_vertical">
+                <TextView android:id="@+id/widget_row_title_one" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:textSize="13sp" android:maxLines="1" android:ellipsize="end" />
+                <TextView android:id="@+id/widget_row_count_one" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp" android:textSize="12sp" android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/widget_row_two" android:layout_width="match_parent" android:layout_height="0dp"
+                android:layout_weight="1" android:orientation="horizontal" android:gravity="center_vertical">
+                <TextView android:id="@+id/widget_row_title_two" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:textSize="13sp" android:maxLines="1" android:ellipsize="end" />
+                <TextView android:id="@+id/widget_row_count_two" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp" android:textSize="12sp" android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/widget_row_three" android:layout_width="match_parent" android:layout_height="0dp"
+                android:layout_weight="1" android:orientation="horizontal" android:gravity="center_vertical">
+                <TextView android:id="@+id/widget_row_title_three" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:textSize="13sp" android:maxLines="1" android:ellipsize="end" />
+                <TextView android:id="@+id/widget_row_count_three" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp" android:textSize="12sp" android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@+id/widget_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/widget_empty_detail" android:textSize="12sp" android:textColor="#5F7088"
+            android:maxLines="1" android:ellipsize="end" android:includeFontPadding="false" android:layout_marginTop="4dp" />
+    </LinearLayout>
+</FrameLayout>
+

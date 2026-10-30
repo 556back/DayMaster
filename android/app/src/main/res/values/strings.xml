@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">日子 · DayMaster</string>
+    <string name="widget_name">日子 · 倒数与纪念</string>
+    <string name="widget_description">把重要的日子放在桌面，支持数字、照片、年轮、月历、日子车票、花开日子、双日期和列表。</string>
+    <string name="widget_brand">DAYMASTER · 日子</string>
+    <string name="widget_list_title">重要的日子</string>
+    <string name="widget_empty_title">添加你的日子</string>
+    <string name="widget_empty_label">记录过去，期待未来</string>
+    <string name="widget_empty_detail">点这里选择已保存的小组件</string>
+    <string name="widget_config_title">选择一个小组件</string>
+    <string name="widget_config_help">先在 App 的“小组件”中保存样式，再选择要放到桌面的那一份。添加后可拖动边缘调整大小；长按桌面中的组件可以重新选择。</string>
+    <string name="widget_no_configs">还没有保存的小组件。打开 App，添加一个日子，再创建喜欢的小组件。</string>
+    <string name="widget_open_app">打开日子 App</string>
+    <string name="widget_style_number">大数字</string>
+    <string name="widget_style_photo">照片纪念卡</string>
+    <string name="widget_style_dual">双日期</string>
+    <string name="widget_style_list">日子列表</string>
+    <string name="widget_style_ring">年轮</string>
+    <string name="widget_style_calendar">月历</string>
+    <string name="widget_style_ticket">日子车票</string>
+    <string name="widget_style_bloom">花开日子</string>
+    <string name="widget_elapsed">已度过 %1$d 天 · %2$s</string>
+    <string name="widget_today">今天 %1$s</string>
+    <string name="widget_photo_missing">在 App 中为这个日子添加照片</string>
+    <string name="widget_annual"> · 每年重复</string>
+    <string name="reminder_channel">重要日子提醒</string>
+    <string name="reminder_channel_description">在当地时间上午 9 点附近提醒你即将到来的重要日子。</string>
+    <string name="reminder_today">就是今天，别忘了这个重要的日子。</string>
+    <string name="reminder_remaining">还有 %1$d 天，重要的日子就要到了。</string>
+</resources>
